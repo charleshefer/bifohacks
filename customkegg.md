@@ -29,4 +29,14 @@ do
 done < <(sed '/^[#!+]/d;s/<[^>]*>//g;s/^./& /' < "$kegfile") > KO_Orthology_ko00001.txt
 ```
 
+This will give you a file called `KO_Orthology_ko00001.txt` which contains the KEGG orthology descriptions.
+
+### Merge the files
+
+Use the script `cmerge_ghostkoala_kegg_orthology.py` to merge the GhostKoala and KEGG Orthology files to get a nice table of KEGG annotations for your proteins.
+
+```
+python scripts/cmerge_ghostkoala_kegg_orthology.py -g user_ko.txt -k KO_Orthology_ko00001.txt -o ko_results.txt
+```
+
 
