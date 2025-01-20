@@ -1,6 +1,6 @@
 ###############################################################################
 #Merging ghostkoala and kegg orthology files
-#
+#Produces a text file with three colums: accession, ko term, ko description
 #@author:charles.hefer@agresearch.co.nz
 #@version:0.1
 ###############################################################################
@@ -47,8 +47,7 @@ def __main__():
 			#print(line)
 			description = line.strip().split("\t")[3]
 			#print(description)
-			#sys.exit()
-			#the ko id is the first part before the space
+			#the ko id is the first part before the space, split using the re
 			ko_description = ko_re.match(description)
 			kegg[ko_description.groups()[0]] = ko_description.groups()[1]
 
