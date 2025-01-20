@@ -3,7 +3,7 @@
 Tips on bioinformatics activities
 
 ## Guides:
-  -  [customkegg.md](https://github.com/charleshefer/bifohacks/blob/main/customkegg.md") How to perform KEGG annotation on a completely unannotated set of proteins
+  -  [customkegg.md](https://github.com/charleshefer/bifohacks/blob/main/customkegg.md) How to perform KEGG annotation on a completely unannotated set of proteins
 
 
 ## Scripts:
