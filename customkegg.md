@@ -45,6 +45,8 @@ Make use of `clusterProfiler` to perform the enrichment analysis. Clusterprofile
 
 # Use clusterProfiler::enricher to perform enrichment analysis
 
+Available as a script under ./scripts/custom_kegg.R
+
 
 ```
 library(clusterProfiler)
