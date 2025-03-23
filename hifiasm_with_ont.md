@@ -40,7 +40,7 @@ dorado aligner -t {threads} {input.haplotype} {input.bam} > {output.bam}
 
 ### Polish the genome
 
-After sorting and indexing the alignment bam file with samtools, use the dorado polish command to polish the genome. You can specify the read groups, or ignore them if you want to merge them
+After sorting and indexing the alignment bam file with samtools, use the dorado polish command to polish the genome. You can specify the read groups, or ignore them if you want to merge them. This ran fine on the GPU, but never completed after more than 7 days on the CPU.
 
 ```
 dorado polish -t {threads} --ignore-read-groups {input.bam} {input.haplotype} > {output.fasta}
