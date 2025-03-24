@@ -21,4 +21,4 @@ Tips on bioinformatics activities
   - [cextract_go_from_interproscan.py](https://github.com/charleshefer/bifohacks/blob/main/scripts/cextract_go_grom_interproscan.py) Extract GO terms from an InterProscan annotationm, making the dataset "long".
 
 ### FASTA format manipulation
-  - [cfasta_scaffold_breaker.py](hppts://github.com/charleshefer/bifohacks/blob/main/cfasta_scaffold_breaker.md) Break a scaffolded fasta file on the NNs, keep the names of the sequences.
+  - [cfasta_scaffold_breaker.py](https://github.com/charleshefer/bifohacks/blob/main/cfasta_scaffold_breaker.md) Break a scaffolded fasta file on the NNs, keep the names of the sequences.
