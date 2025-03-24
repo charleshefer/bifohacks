@@ -4,9 +4,14 @@ Given a fasta file with scaffolded sequences (i.e. sequences that are joined tog
 
 This will not take into account the length of the new entries, and needs to be filtered out using a different script.
 
+
 ## Dependencies
 
 Requires the `biopython` package. 
+
+## Script
+
+The python script is available [here](https://github.com/charleshefer/bifohacks/blob/main/scripts/cfasta_scaffold_breaker.py).
 
 ## Usage
 
